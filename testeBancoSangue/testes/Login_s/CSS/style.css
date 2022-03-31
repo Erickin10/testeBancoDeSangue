@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2? family= Source+Code+Pro & display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-image: url(../imagens/fundo-login.png);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.estrutura{
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 25px;
+    
+ }
+
+ .estrutura h1{
+     text-align: center;
+     padding: 20px;
+     font-size: 32pt;
+     font-family: 'Source Code Pro', monospace;
+     color: black;
+ }
+
+
+input{
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    outline: none;
+    
+}
+
+input[type=submit]{
+    background-color: #3a9ec5;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Source Code Pro', monospace;
+    display: block;
+    text-align: center;
+ }
+
+
+
+ a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+ }
+
+ a:hover{
+     text-decoration: underline;
+ }
+
+ .sucess_msg{
+    width: 420px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(77, 175, 68, 0.7);
+ }
+
+ .error_msg{
+    width: 420px;
+    margin: 10px auto;  
+    padding: 10px;
+    background-color:  rgba(172, 0, 0, .7);
+ }
+
+
+
+
+
+
+
